@@ -3,7 +3,7 @@
 One liners for vulnerabilities
 
 ## Table of Contents
-- [CLickjacking](https://github.com/grozdniyandy/hackerlines#clickjacking)
+- [Clickjacking](https://github.com/grozdniyandy/hackerlines#clickjacking)
 
 ## Clickjacking
 Code below will accept list of domains and find the ones vulneable to clickjacking.
