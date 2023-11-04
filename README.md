@@ -6,9 +6,11 @@ One liners for vulnerabilities
 - [Clickjacking](https://github.com/grozdniyandy/hackerlines#clickjacking)
 
 ## Clickjacking
-Code below will accept list of domains and find the ones vulneable to clickjacking.
 Tik repo: https://github.com/grozdniyandy/tik
+<br>
 Vxod repo: https://github.com/grozdniyandy/vxod
+
+Code below will accept list of domains and find the ones vulneable to clickjacking.
 ```
 ./tik -f domains.txt -t 100
 ```
