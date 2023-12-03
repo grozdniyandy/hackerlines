@@ -4,7 +4,7 @@ One liners for vulnerabilities
 
 ## Table of Contents
 - [Clickjacking](https://github.com/grozdniyandy/hackerlines#clickjacking)
-- [Zaxvat](https://github.com/grozdniyandy/hackerlines#zaxvat)
+- [Subdomain Takeover](https://github.com/grozdniyandy/hackerlines#subdomain%20takeover)
 
 ## Clickjacking
 Tik repo: https://github.com/grozdniyandy/tik
@@ -19,7 +19,7 @@ Code below will accept list of domains and find the ones vulneable to clickjacki
 ```
 ./tik -f domains.txt -t 100 > temp.txt && cat temp.txt | grep -oE '[a-zA-Z0-9.-]+\.com' > check.txt && cat check.txt | xargs -P20 -I {} ./vxod {} 2>/dev/null | grep contains > inputs
 ```
-## Zaxvat (Subdomain Takeover)
+## Subdomain Takeover
 Zaxvat repo: https://github.com/grozdniyandy/zaxvat
 <br>
 Code below will accept list of domains and find the ones vulneable to subdomain takeover.
