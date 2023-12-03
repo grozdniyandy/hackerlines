@@ -4,7 +4,7 @@ One liners for vulnerabilities
 
 ## Table of Contents
 - [Clickjacking](https://github.com/grozdniyandy/hackerlines#clickjacking)
-- [Subdomain Takeover](https://github.com/grozdniyandy/hackerlines#subdomain%20takeover)
+- [Subdomain Takeover](https://github.com/grozdniyandy/hackerlines#subdomain-takeover)
 
 ## Clickjacking
 Tik repo: https://github.com/grozdniyandy/tik
