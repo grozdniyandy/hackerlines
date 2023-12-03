@@ -23,6 +23,7 @@ tik -f domains.txt -t 100 > temp.txt && cat temp.txt | grep -oE '[a-zA-Z0-9.-]+\
 ## Subdomain Takeover
 Zaxvat repo: https://github.com/grozdniyandy/zaxvat
 <br>
+
 Code below will accept list of domains and find the ones vulneable to subdomain takeover.
 ```
 cat domains.txt | xargs -P100 -I {} zaxvat {} > takeover1
@@ -36,6 +37,7 @@ Bablo repo: https://github.com/grozdniyandy/bablo
 <br>
 kXSS repo: https://github.com/grozdniyandy/kxss
 <br>
+
 If you have only 1 domain to check (You will have to stop crawler manually!)
 ```
 bablo -t 10000 https://example.com >> bablo.txt
